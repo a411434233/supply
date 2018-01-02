@@ -1,0 +1,110 @@
+.side-ul li
+{
+	height:60px;
+	line-height: 60px;
+	font-size: 18px;
+	padding-left:20px;
+	cursor: pointer;
+}
+.main-content-box
+{
+	padding-left:20px;
+	width: 1600px;
+	min-height: 900px;
+	overflow-y: auto;
+	padding-top: 20px;
+	padding-right: 20px;
+	float: left;
+	clear:both;
+}
+
+.op
+{
+	background: #E5DECE;
+	opacity: 0.5;
+}
+.biao
+{
+	position: absolute;
+	width: 500px;
+	height:200px;
+	top: 200px;
+	background:#ffffff;
+	z-index:200;
+	left: 750px;
+	border: 1px solid #bdbdbd;
+}
+.right
+{
+    margin-top: 20px;
+    max-width: 375px;
+    height: 65px;
+    float: right;
+    padding-right: 75px;
+  /*  border: 1px solid red;*/
+}
+.right-left
+{
+            width: 70px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+}
+.right-mid
+{
+	max-width: 210px;
+	height: 100%;
+            float: left;
+	text-align: center;
+	margin-top: -5px;
+}
+.right-right
+{
+	max-width: 210px;
+	height: 100%;
+            float: left;
+	text-align: center;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.maskCuntry
+{
+	width: 402px;
+	max-height:300px;
+	overflow-y: auto;
+	background: #ffffff;
+	position: absolute;
+	top:30px;
+	left: 105px;
+	border: 1px solid #bdbdbd;
+}
+.maskCuntry ul
+{
+   width: 100%;
+}
+.maskCuntry ul li
+{
+	padding:1px 5px 1px 5px;
+	height: 25px;
+            font-size: 14px;
+            cursor: pointer;
+}
+.maskCuntry ul li:hover
+{
+	background: #e5e5e5;
+}
+.tbtn
+{
+	margin-top:30px;
+	width:120px;
+	padding:2px;
+	text-align:center;
+	height:30px;
+	cursor:pointer;
+	border:none;
+	border-radius: 2px;
+	background:#c8996b;
+	color:#ffffff;
+	margin-left: 180px;
+}
